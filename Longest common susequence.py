@@ -12,9 +12,9 @@ if (len(s1)==len(s2)):
             else:
                 dp[i+1][j+1] = max(dp[i][j+1], dp[i+1][j])
 
-    result =''
+    result = ''
     for i in st:
-        result+=s1[i]
+        result += s1[i]
     print(result)
 
 else:
