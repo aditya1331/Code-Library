@@ -1,4 +1,3 @@
-
 def maximumSegments(n, a, b, c):
 
     dp = [-1] * (n + 10)
